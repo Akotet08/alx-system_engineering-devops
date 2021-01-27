@@ -1,0 +1,3 @@
+#!/bin/bash
+filename=$( ls *.html)
+for file in $filename; do if [ ! -f "../$file" ]; then mv $file ..; fi; done
