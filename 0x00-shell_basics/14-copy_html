@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in $( ls *.html); do if [ ! -f "../$file" ]; then mv $file ..; fi; done
+cp -u *.html ../
