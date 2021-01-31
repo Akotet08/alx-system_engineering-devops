@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -R | grep .*\.js | rm  2> /dev/null
+rm $(ls -R | grep .*\.js) 2> /dev/null
