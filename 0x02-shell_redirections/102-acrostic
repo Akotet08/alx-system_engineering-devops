@@ -1,0 +1,2 @@
+#!/bin/bash
+awk 'BEGIN{FIELDWIDTHS="1"} BEGIN{ORS=""} {print $1}' && echo
